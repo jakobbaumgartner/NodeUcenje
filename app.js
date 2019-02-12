@@ -25,6 +25,12 @@ const server = http.createServer((req, res) => {
             body.push(chunk)
             console.log(chunk)
         })
+
+        //pomembno je, da node.js izvede te req asinhronsko (callback), 
+        //torej bo čakal na prožilni dogodek in bo prvo sprožil
+        //recimo res.statusCode = 302, ker ne potrebuje čakati v 
+        //dani situaciji
+
         req.on('end', () => {
             const parsedBody = Buffer.concat(body).toString();
             console.log(parsedBody)
