@@ -1,0 +1,21 @@
+NPM
+----------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Package.json je datoteka, ki vključuje podatke o projektu in pa dependencies - zunanje module, ki jih uvozimo preko npm package manager sistema. 
+Dobimo jo z "npm init".
+
+Lahko nastavimo skripte in jih poženemo z "npm start" za posebno "start" skripto, druge pa preko "npm run _name_".
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Z "npm install _imepaketa_" dobimo nove dependencies.
+
+Lahko definiramo tip instalacije na development ali server. Dodamo značke:
+"--save"
+"--save-dev"
+"-g" <-- globalno na cel računalnik, za vse projekte
+
+Primer:
+--> "npm install _imepaketa_ --save"
+--> "npm install -g _imepaketa_"
+

@@ -1,0 +1,24 @@
+{
+  "name": "nodeucenje",
+  "version": "1.0.0",
+  "description": "Concepts testing project of Node.js studying course.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakobbaumgartner/NodeUcenje.git"
+  },
+  "author": "Jakob Baumgartner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jakobbaumgartner/NodeUcenje/issues"
+  },
+  "homepage": "https://github.com/jakobbaumgartner/NodeUcenje#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}

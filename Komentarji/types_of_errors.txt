@@ -1,0 +1,30 @@
+Types:
+-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+-> Syntax Errors
+-> Runtime Errors 
+-> Logical Errors 
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+SYNTAX  ERRORS   
+--------------
+nodejs nam pove, da imamo napako in pokaže vrstico napake
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+RUNTIME ERROR
+-------------
+Ne dobimo napake, vsaj ne takoj. Aplikacija se zažene, vendar pa kasneje med izvajanjem dobimo napako. Recimo, da nismo zaključili poteka neke funkcije.
+V poročilu o napaki nam sporoči kje in kaj.
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+LOGICAL ERROR
+-------------
+Ne dobimo napake sploh. Je narobe pisana koda. Krivi smo mi.
+
+Pomagamo si lahko z VS Code debugger (F5).
+    -> nastavimo lahko break points
+    
