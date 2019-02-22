@@ -27,4 +27,22 @@ Ne dobimo napake sploh. Je narobe pisana koda. Krivi smo mi.
 
 Pomagamo si lahko z VS Code debugger (F5).
     -> nastavimo lahko break points
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+DEBUGGER
+--------
+-> zaženemo z F5
+-> dodamo break points
+-> v console lahko gledamo ukaze, glede na izvedeno kodo
+->(menu) - debug - Add Configuration
+    "restart": true,
+    //debugger restarted when changed code
+    "runtimeExecutable": "nodemon"
+    //server restarted using nodemon
+    "console": "integratedTerminal"
+    //code started in treminal, not debug console (only)
+
+    Če uporabljamo nodemon moramo uporabiti zunanji terminal, ker ga drugače ne izklopi po koncu debuganja.
+
     
