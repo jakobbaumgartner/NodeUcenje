@@ -35,7 +35,6 @@ function requestHandler(req, res) {
         res.statusCode = 302
         //statusCode 302 pove, da bomo spremenili http naslov
         res.setHeader('Location', '/')
-        res.write('Sporocilo poslano!')
         return res.end
     }
 }
